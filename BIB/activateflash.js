@@ -1,0 +1,1 @@
+function activateflash(f){document.write(f);}

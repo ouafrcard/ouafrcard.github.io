@@ -1,0 +1,73 @@
+﻿.bulkfontbold { font-size: 10pt; font-family: Tahoma, Verdana, Lucida Grande, Lucida Sans, Arial, sans-serif; font-weight: bold}
+.bulkfont{ font-size: 10pt; font-family: Tahoma, Verdana, Lucida Grande, Lucida Sans, Arial, sans-serif;}
+
+ul#navlist {
+    width: 246px;
+    padding: 0;
+    border: 1px solid #00407A;
+    border-top: 0;
+    margin: 0;
+    font: bold 10px verdana,helvetica,arial,sans-serif;
+    background: #00407A;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+ul#navlist li {
+    list-style: none;
+    margin: 0;
+    border: 0;
+    border-top: 1px solid #00407A;
+}
+
+ul#navlist li a {
+    display: block;
+    width: 210px;
+    padding: 4px 8px 4px 8px;
+    border: 0;
+    border-left: 20px solid #00407A;
+    background: #CECCDD;
+    text-decoration: none;
+}
+
+ul#navlist li a:link { color: #00407A; } 
+div#navcontainer li a:visited { color: #00407A; }
+
+ul#navlist li a:hover {
+    border-color: #61BF1A;
+    color: #ffffff;
+    background: #00407A;
+}
+
+.ie9fixorz {
+    background-color: white;
+    opacity: 0.75;
+}
+
+.ui-widget{ font-size: .8em; }
+.initiallyHidden { display: none; }
+.required { border: 1px solid #cf4141; }
+.ui-dialog-titlebar-close { visibility: hidden; }
+
+.sm-input {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.login-border {
+    -webkit-border-radius: 0 0 18px 18px;
+    -moz-border-radius: 0 0 18px 18px;
+    border-radius: 0 0 18px 18px;
+    border: 1px solid #001c61;
+    box-shadow: 2px 2px 2px #888888;
+}
+
+.nav-container {
+    display: none;
+    float: left;
+    height: 50px;
+    margin-top: 50px;
+}
